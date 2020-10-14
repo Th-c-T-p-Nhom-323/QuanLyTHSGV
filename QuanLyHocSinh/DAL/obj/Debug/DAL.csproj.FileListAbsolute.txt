@@ -1,0 +1,54 @@
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\bin\Debug\DAL.dll
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\bin\Debug\DAL.pdb
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\obj\Debug\DAL.dll
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\obj\Debug\DAL.pdb
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\bin\Debug\DAO.dll
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAL\bin\Debug\DAO.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\bin\Debug\DAL.dll
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\bin\Debug\DAL.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\bin\Debug\DAO.dll
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\bin\Debug\DAO.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\obj\Debug\DAL.dll
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAL\obj\Debug\DAL.pdb
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\obj\Debug\DAL.dll
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\obj\Debug\DAL.pdb
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAL.dll
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAL.pdb
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAO.dll
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAO.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAL.dll
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAL.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAO.dll
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\bin\Debug\DAO.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\obj\Debug\DAL.dll
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAL\obj\Debug\DAL.pdb
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\DAL\bin\Debug\DAL.dll
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\DAL\bin\Debug\DAL.pdb
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\DAL\bin\Debug\DAO.dll
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\DAL\bin\Debug\DAO.pdb
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\DAL\obj\Debug\DAL.dll
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\DAL\obj\Debug\DAL.pdb
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\bin\Debug\DAL.dll
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\bin\Debug\DAL.pdb
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\bin\Debug\DAO.dll
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\bin\Debug\DAO.pdb
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\obj\Debug\DAL.dll
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\obj\Debug\DAL.pdb
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\bin\Debug\DAL.dll
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\bin\Debug\DAL.pdb
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\bin\Debug\DAO.dll
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\bin\Debug\DAO.pdb
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\obj\Debug\DAL.dll
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAL\obj\Debug\DAL.pdb

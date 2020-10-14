@@ -1,0 +1,175 @@
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csprojResolveAssemblyReference.cache
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Properties.Resources.resources
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.GenerateResource.Cache
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.pdb
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.dll
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.pdb
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMain.resources
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmBangDiem.resources
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmGiaoVien.resources
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiem.resources
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiemHS.resources
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHocSinh.resources
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmKetQuaHocTap.resources
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMonHoc.resources
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmThongTinGiangDay.resources
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.dll
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.pdb
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLogin.resources
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLopHoc.resources
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.dll
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.dll
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csprojResolveAssemblyReference.cache
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLogin.resources
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmBangDiem.resources
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmGiaoVien.resources
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiem.resources
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHocSinh.resources
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmKetQuaHocTap.resources
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLopHoc.resources
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMain.resources
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMonHoc.resources
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmThongTinGiangDay.resources
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiemHS.resources
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Properties.Resources.resources
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.GenerateResource.Cache
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.pdb
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.dll
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.dll
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.pdb
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.pdb
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csprojResolveAssemblyReference.cache
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLogin.resources
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmBangDiem.resources
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmGiaoVien.resources
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiem.resources
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHocSinh.resources
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmKetQuaHocTap.resources
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLopHoc.resources
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMain.resources
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMonHoc.resources
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmThongTinGiangDay.resources
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiemHS.resources
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Properties.Resources.resources
+C:\Users\buing\Desktop\Thực tập nhóm\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.GenerateResource.Cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.dll
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.dll
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csprojResolveAssemblyReference.cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLogin.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmBangDiem.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmGiaoVien.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiem.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHocSinh.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmKetQuaHocTap.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLopHoc.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMain.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMonHoc.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmThongTinGiangDay.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiemHS.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Properties.Resources.resources
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.GenerateResource.cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.CoreCompileInputs.cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.CopyComplete
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
+D:\2018\TTN\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+D:\2018\TTN\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+D:\2018\TTN\QuanLyHSTHPT_Bai2\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.pdb
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.dll
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.dll
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.pdb
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.pdb
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csprojResolveAssemblyReference.cache
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLogin.resources
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmBangDiem.resources
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmGiaoVien.resources
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiem.resources
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHocSinh.resources
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmKetQuaHocTap.resources
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLopHoc.resources
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMain.resources
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMonHoc.resources
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmThongTinGiangDay.resources
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiemHS.resources
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Properties.Resources.resources
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.GenerateResource.Cache
+C:\Users\MSII\Desktop\BaiTapTrenLop\Thuc Tap Nhom\QuanLyHSTHPT_Bai2-master(bainop)\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+C:\Users\MSII\Desktop\BaiTapTrenLop\Thuc Tap Nhom\QuanLyHSTHPT_Bai2-master(bainop)\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+C:\Users\MSII\Desktop\BaiTapTrenLop\Thuc Tap Nhom\QuanLyHSTHPT_Bai2-master(bainop)\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
+G:\Thực tập nhóm\NguyenTienChien\QuanLyHSTHPT_Bai2-master(bainop)\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+G:\Thực tập nhóm\NguyenTienChien\QuanLyHSTHPT_Bai2-master(bainop)\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+G:\Thực tập nhóm\NguyenTienChien\QuanLyHSTHPT_Bai2-master(bainop)\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.pdb
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.dll
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.dll
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.pdb
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.pdb
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLogin.resources
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmBangDiem.resources
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmGiaoVien.resources
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiem.resources
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHocSinh.resources
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmKetQuaHocTap.resources
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLopHoc.resources
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMain.resources
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMonHoc.resources
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmThongTinGiangDay.resources
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiemHS.resources
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Properties.Resources.resources
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.GenerateResource.cache
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.CopyComplete
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe.config
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.exe
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\QuanLyHocSinh.pdb
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.dll
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.dll
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAL.pdb
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\bin\Debug\DAO.pdb
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csprojAssemblyReference.cache
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLogin.resources
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmBangDiem.resources
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmGiaoVien.resources
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiem.resources
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHocSinh.resources
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmKetQuaHocTap.resources
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmLopHoc.resources
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMain.resources
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmMonHoc.resources
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmThongTinGiangDay.resources
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.frmHanhKiemHS.resources
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.Properties.Resources.resources
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.GenerateResource.cache
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.CoreCompileInputs.cache
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\GUI_QuanLyHocSinh.csproj.CopyComplete
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.exe
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\QuanLyHocSinh\obj\Debug\QuanLyHocSinh.pdb

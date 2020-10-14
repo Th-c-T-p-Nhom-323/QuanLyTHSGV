@@ -1,0 +1,32 @@
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAO\bin\Debug\DAO.dll
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAO\bin\Debug\DAO.pdb
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAO\obj\Debug\DAO.dll
+c:\users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\DAO\obj\Debug\DAO.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAO\bin\Debug\DAO.dll
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAO\bin\Debug\DAO.pdb
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAO\obj\Debug\DAO.dll
+C:\Users\buing\Desktop\trang\QuanLyHocSinh\DAO\obj\Debug\DAO.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAO\bin\Debug\DAO.dll
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAO\bin\Debug\DAO.pdb
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAO\obj\Debug\DAO.dll
+D:\ASP\New folder\QuanLyHSTHPT_Bai2\QuanLyHocSinh\DAO\obj\Debug\DAO.pdb
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\DAO\bin\Debug\DAO.dll
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\DAO\bin\Debug\DAO.pdb
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\DAO\obj\Debug\DAO.dll
+C:\Users\MSII\Desktop\QuanLyHSTHPT_Bai2-master\QuanLyHSTHPT_Bai2-master\QuanLyHocSinh\DAO\obj\Debug\DAO.pdb
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAO\bin\Debug\DAO.dll
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAO\bin\Debug\DAO.pdb
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAO\obj\Debug\DAO.dll
+C:\Users\PC\Desktop\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAO\obj\Debug\DAO.pdb
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAO\bin\Debug\DAO.dll
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAO\bin\Debug\DAO.pdb
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAO\obj\Debug\DAO.csprojAssemblyReference.cache
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAO\obj\Debug\DAO.dll
+D:\Tài liệu học tập-nam4-1\ThucTapNhom\QuanLyHSGV-master\QuanLyHocSinh\DAO\obj\Debug\DAO.pdb

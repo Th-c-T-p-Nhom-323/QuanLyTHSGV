@@ -1,0 +1,9 @@
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\BUS\bin\Debug\BUS.dll
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\BUS\bin\Debug\BUS.pdb
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\BUS\bin\Debug\DAL.dll
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\BUS\bin\Debug\DAO.dll
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\BUS\bin\Debug\DAL.pdb
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\BUS\bin\Debug\DAO.pdb
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\BUS\obj\Debug\BUS.dll
+C:\Users\buing\onedrive\documents\visual studio 2015\Projects\QuanLyHocSinh\BUS\obj\Debug\BUS.pdb
