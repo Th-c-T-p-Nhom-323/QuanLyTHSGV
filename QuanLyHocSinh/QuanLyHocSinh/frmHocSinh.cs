@@ -97,7 +97,41 @@ namespace QuanLyHocSinh
 
         private void btOk_Click(object sender, EventArgs e)
         {
-            
+            if (type == "Them")
+            {
+                if (txtMaHS.Text != "" && txtTen.Text != "" && txtTenNguoiThan.Text != "" && txtDiaChi.Text != "")
+                {
+                    string gioitinh = "";
+                    if (rbNam.Checked)
+                    {
+                        gioitinh = "Nam";
+                    }
+                    else if (rbNu.Checked)
+                    {
+                        gioitinh = "Nữ";
+                    }
+                    else
+                    {
+                        gioitinh = "Khác";
+                    }
+                    HocSinh hs = new HocSinh(txtMaHS.Text.Trim().ToString(), txtTen.Text.Trim().ToString(), txtDiaChi.Text.Trim(), gioitinh, DateTime.Parse(dtNgaySinh.Text), txtTenNguoiThan.Text.Trim(), txtMaLH.Text.Trim());
+                    if (dal_hs.Them(hs) == true)
+                    {
+                        FormatData();
+                        ShowData();
+                        EnableMethod(true);
+                        MessageBox.Show("Thêm thành công");
+                    }
+                    else
+                    {
+                        Exception ex = dal_hs.GetEx();
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+                else
+                    MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
+
+            }
         }
 
         private void cbTenLH_SelectedIndexChanged(object sender, EventArgs e)
