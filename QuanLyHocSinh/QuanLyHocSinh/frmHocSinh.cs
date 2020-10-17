@@ -80,7 +80,11 @@ namespace QuanLyHocSinh
 
         private void btSua_Click(object sender, EventArgs e)
         {
-           
+            type = "Sua";
+            cbTenLH.DataSource = dal_hs.GetDataCom();
+            EnabledData(true);
+            EnableMethod(false);
+            txtMaHS.Enabled = false;
         }
 
         private void dtgvHocSinh_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -132,6 +136,41 @@ namespace QuanLyHocSinh
                     MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
 
             }
+            else if (type == "Sua")
+            {
+                if (txtTen.Text != "")
+                {
+                    string gioitinh = "";
+                    if (rbNam.Checked)
+                    {
+                        gioitinh = "Nam";
+                    }
+                    else if (rbNu.Checked)
+                    {
+                        gioitinh = "Nữ";
+                    }
+                    else
+                    {
+                        gioitinh = "Khác";
+                    }
+                    HocSinh hs = new HocSinh(txtMaHS.Text.Trim().ToString(), txtTen.Text.Trim().ToString(), txtDiaChi.Text.Trim(), gioitinh, DateTime.Parse(dtNgaySinh.Text), txtTenNguoiThan.Text.Trim(), txtMaLH.Text.Trim());
+                    if (dal_hs.Sua(hs) == true)
+                    {
+                        FormatData();
+                        ShowData();
+                        MessageBox.Show("Sửa thành công");
+                        EnableMethod(true);
+                    }
+                    else
+                    {
+                        Exception ex = dal_hs.GetEx();
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+                else
+                    MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
+            }
+
         }
 
         private void cbTenLH_SelectedIndexChanged(object sender, EventArgs e)
