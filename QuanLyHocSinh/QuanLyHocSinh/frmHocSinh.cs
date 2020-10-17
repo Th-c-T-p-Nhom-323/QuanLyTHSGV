@@ -171,6 +171,7 @@ namespace QuanLyHocSinh
                     MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
             }
 
+
         }
 
         private void cbTenLH_SelectedIndexChanged(object sender, EventArgs e)
