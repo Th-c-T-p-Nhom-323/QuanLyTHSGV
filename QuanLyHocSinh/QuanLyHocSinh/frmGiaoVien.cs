@@ -74,7 +74,41 @@ namespace QuanLyHocSinh
 
         private void btOk_Click(object sender, EventArgs e)
         {
-           
+           if (type == "Them")
+            {
+                if (txtMaGV.Text != "" && txtTen.Text != "" && txtSoDT.Text != "" && txtLuong.Text != "" && txtDiaChi.Text != "")
+                {
+                    string gioitinh = "";
+                    if (rbNam.Checked)
+                    {
+                        gioitinh = "Nam";
+                    }
+                    else if (rbNu.Checked)
+                    {
+                        gioitinh = "Nữ";
+                    }
+                    else
+                    {
+                        gioitinh = "Khác";
+                    }
+                    GiaoVien gv = new GiaoVien(txtMaGV.Text.Trim().ToString(), txtTen.Text.Trim().ToString(), gioitinh, txtSoDT.Text.Trim(), txtDiaChi.Text.Trim(), DateTime.Parse(dtNgaySinh.Text), float.Parse(txtLuong.Text.Trim()));
+                    if (dal_gv.Them(gv) == true)
+                    {
+                        FormatData();
+                        ShowData();
+                        EnableMethod(true);
+                        MessageBox.Show("Thêm thành công");
+                    }
+                    else
+                    {
+                        Exception ex = dal_gv.GetEx();
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+                else
+                    MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
+
+            }
         }
 
         private void btThoat_Click(object sender, EventArgs e)
