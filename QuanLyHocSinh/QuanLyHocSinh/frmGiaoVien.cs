@@ -109,6 +109,38 @@ namespace QuanLyHocSinh
                     MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
 
             }
+            else if (type == "Sua")
+            {
+                if (txtMaGV.Text != "" && txtTen.Text != "" && txtSoDT.Text != "" && txtLuong.Text != "" && txtDiaChi.Text != "")
+                {
+                    string gioitinh = "";
+                    if (rbNam.Checked)
+                    {
+                        gioitinh = "Nam";
+                    }
+                    else if (rbNu.Checked)
+                    {
+                        gioitinh = "Nữ";
+                    }
+                    else
+                    {
+                        gioitinh = "Khác";
+                    }
+                    GiaoVien gv = new GiaoVien(txtMaGV.Text.Trim().ToString(), txtTen.Text.Trim().ToString(), gioitinh, txtSoDT.Text.Trim(), txtDiaChi.Text.Trim(), DateTime.Parse(dtNgaySinh.Text), float.Parse(txtLuong.Text.Trim()));
+                    if (dal_gv.Sua(gv) == true)
+                    {
+                        FormatData();
+                        ShowData();
+                        MessageBox.Show("Sửa thành công");
+                        EnableMethod(true);
+                    }
+                    else
+                    {
+                        Exception ex = dal_gv.GetEx();
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+                
         }
 
         private void btThoat_Click(object sender, EventArgs e)
@@ -125,8 +157,10 @@ namespace QuanLyHocSinh
 
         private void btSua_Click(object sender, EventArgs e)
         {
-            
-        }
+                type = "Sua";
+                EnabledData(true);
+                EnableMethod(false);
+            }
 
         private void btCancel_Click(object sender, EventArgs e)
         {
