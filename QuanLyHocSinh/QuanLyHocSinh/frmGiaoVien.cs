@@ -74,73 +74,91 @@ namespace QuanLyHocSinh
 
         private void btOk_Click(object sender, EventArgs e)
         {
-           if (type == "Them")
-            {
-                if (txtMaGV.Text != "" && txtTen.Text != "" && txtSoDT.Text != "" && txtLuong.Text != "" && txtDiaChi.Text != "")
-                {
-                    string gioitinh = "";
-                    if (rbNam.Checked)
+               if (type == "Them")
+               {
+                    if (txtMaGV.Text != "" && txtTen.Text != "" && txtSoDT.Text != "" && txtLuong.Text != "" && txtDiaChi.Text != "")
                     {
-                        gioitinh = "Nam";
-                    }
-                    else if (rbNu.Checked)
-                    {
-                        gioitinh = "Nữ";
+                         string gioitinh = "";
+                         if (rbNam.Checked)
+                         {
+                              gioitinh = "Nam";
+                         }
+                         else if (rbNu.Checked)
+                         {
+                              gioitinh = "Nữ";
+                         }
+                         else
+                         {
+                              gioitinh = "Khác";
+                         }
+                         GiaoVien gv = new GiaoVien(txtMaGV.Text.Trim().ToString(), txtTen.Text.Trim().ToString(), gioitinh, txtSoDT.Text.Trim(), txtDiaChi.Text.Trim(), DateTime.Parse(dtNgaySinh.Text), float.Parse(txtLuong.Text.Trim()));
+                         if (dal_gv.Them(gv) == true)
+                         {
+                              FormatData();
+                              ShowData();
+                              EnableMethod(true);
+                              MessageBox.Show("Thêm thành công");
+                         }
+                         else
+                         {
+                              Exception ex = dal_gv.GetEx();
+                              MessageBox.Show(ex.Message);
+                         }
                     }
                     else
-                    {
-                        gioitinh = "Khác";
-                    }
-                    GiaoVien gv = new GiaoVien(txtMaGV.Text.Trim().ToString(), txtTen.Text.Trim().ToString(), gioitinh, txtSoDT.Text.Trim(), txtDiaChi.Text.Trim(), DateTime.Parse(dtNgaySinh.Text), float.Parse(txtLuong.Text.Trim()));
-                    if (dal_gv.Them(gv) == true)
-                    {
-                        FormatData();
-                        ShowData();
-                        EnableMethod(true);
-                        MessageBox.Show("Thêm thành công");
-                    }
-                    else
-                    {
-                        Exception ex = dal_gv.GetEx();
-                        MessageBox.Show(ex.Message);
-                    }
-                }
-                else
-                    MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
+                         MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
 
-            }
-            else if (type == "Sua")
-            {
-                if (txtMaGV.Text != "" && txtTen.Text != "" && txtSoDT.Text != "" && txtLuong.Text != "" && txtDiaChi.Text != "")
-                {
-                    string gioitinh = "";
-                    if (rbNam.Checked)
+               }
+               else if (type == "Sua")
+               {
+                    if (txtMaGV.Text != "" && txtTen.Text != "" && txtSoDT.Text != "" && txtLuong.Text != "" && txtDiaChi.Text != "")
                     {
-                        gioitinh = "Nam";
+                         string gioitinh = "";
+                         if (rbNam.Checked)
+                         {
+                              gioitinh = "Nam";
+                         }
+                         else if (rbNu.Checked)
+                         {
+                              gioitinh = "Nữ";
+                         }
+                         else
+                         {
+                              gioitinh = "Khác";
+                         }
+                         GiaoVien gv = new GiaoVien(txtMaGV.Text.Trim().ToString(), txtTen.Text.Trim().ToString(), gioitinh, txtSoDT.Text.Trim(), txtDiaChi.Text.Trim(), DateTime.Parse(dtNgaySinh.Text), float.Parse(txtLuong.Text.Trim()));
+                         if (dal_gv.Sua(gv) == true)
+                         {
+                              FormatData();
+                              ShowData();
+                              MessageBox.Show("Sửa thành công");
+                              EnableMethod(true);
+                         }
+                         else
+                         {
+                              Exception ex = dal_gv.GetEx();
+                              MessageBox.Show(ex.Message);
+                         }
                     }
-                    else if (rbNu.Checked)
+               }
+               else if (type == "Xoa")
+               {
+                    if (txtMaGV.Text != "" && txtTen.Text != "" && txtSoDT.Text != "" && txtLuong.Text != "" && txtDiaChi.Text != "")
                     {
-                        gioitinh = "Nữ";
+                         DialogResult dr = MessageBox.Show("Bạn có muốn xóa khồng?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                         if (dr == DialogResult.OK)
+                         {
+                              dal_gv.Xoa(txtMaGV.Text);
+                              EnableMethod(true);
+                              ShowData();
+                         }
+                         else
+                         {
+                              EnabledData(false);
+                              EnableMethod(true);
+                         }
                     }
-                    else
-                    {
-                        gioitinh = "Khác";
-                    }
-                    GiaoVien gv = new GiaoVien(txtMaGV.Text.Trim().ToString(), txtTen.Text.Trim().ToString(), gioitinh, txtSoDT.Text.Trim(), txtDiaChi.Text.Trim(), DateTime.Parse(dtNgaySinh.Text), float.Parse(txtLuong.Text.Trim()));
-                    if (dal_gv.Sua(gv) == true)
-                    {
-                        FormatData();
-                        ShowData();
-                        MessageBox.Show("Sửa thành công");
-                        EnableMethod(true);
-                    }
-                    else
-                    {
-                        Exception ex = dal_gv.GetEx();
-                        MessageBox.Show(ex.Message);
-                    }
-                }
-                
+               }
         }
 
         private void btThoat_Click(object sender, EventArgs e)
@@ -170,8 +188,12 @@ namespace QuanLyHocSinh
 
         private void btXoa_Click(object sender, EventArgs e)
         {
-           
-        }
+                    type = "Xoa";
+                    EnabledData(false);
+                    EnableMethod(false);
+                    btOk.Visible = true;
+                    btCancel.Visible = true;
+         }
 
         private void btTimKiem_Click(object sender, EventArgs e)
         {
