@@ -152,36 +152,74 @@ namespace QuanLyHocSinh
 
         private void btThoat_Click(object sender, EventArgs e)
         {
+            this.Close();
+            frmMain fmain = new frmMain();
+            fmain.Show();
         }
 
         private void cbTenGVCN_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+            txtMaGV.Text = cbTenGVCN.SelectedValue.ToString();
         }
 
         private void dtgvLopHoc_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-           
+            try
+            {
+                DataGridViewRow row = new DataGridViewRow();
+                row = dtgvLopHoc.Rows[e.RowIndex];
+                txtMaLH.Text = row.Cells[0].Value.ToString().Trim();
+                txtTenLH.Text = row.Cells[1].Value.ToString().Trim();
+                txtMaGV.Text = row.Cells[2].Value.ToString().Trim();
+                cbTenGVCN.Text = row.Cells[3].Value.ToString().Trim();
+            }
+            catch (Exception ex)
+            {
+                ex = dal_lh.GetEx();
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btCancel_Click(object sender, EventArgs e)
         {
-           
+            EnabledData(false);
+            EnableMethod(true);
         }
 
         private void btXoa_Click(object sender, EventArgs e)
         {
-           
+            type = "Xoa";
+            EnabledData(false);
+            EnableMethod(false);
+            btOk.Visible = true;
+            btCancel.Visible = true;
         }
 
         private void btHienThi_Click(object sender, EventArgs e)
         {
-           
+            btHienThi.Enabled = false;
+            txtTimKiem.Text = "";
+            ShowData();
         }
 
         private void btTiemKiem_Click(object sender, EventArgs e)
         {
-           
+            if (txtTimKiem.Text != "")
+            {
+                btHienThi.Enabled = true;
+                if (dal_lh.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
+                {
+                    dtgvLopHoc.DataSource = dal_lh.GetDataTimKiem(txtTimKiem.Text.Trim());
+                    MessageBox.Show("Tìm thành công");
+                }
+                else
+                {
+                    Exception ex = dal_lh.GetEx();
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            else
+                MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
         }
     }
 }
