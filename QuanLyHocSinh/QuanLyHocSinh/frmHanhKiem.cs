@@ -84,7 +84,7 @@ namespace QuanLyHocSinh
                 MessageBox.Show(ex.Message);
             }
         }
-        //Chưa làm
+        
         private void btOk_Click(object sender, EventArgs e)
         {
             if (type == "Them")
@@ -130,6 +130,24 @@ namespace QuanLyHocSinh
                 else
                     MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
             }
+            else if (type == "Xoa")
+            {
+                if (txtMaHK.Text != "" && txtTen.Text != "")
+                {
+                    DialogResult dr = MessageBox.Show("Bạn có muốn xóa khồng?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+                    if (dr == DialogResult.OK)
+                    {
+                        dal_hk.Xoa(txtMaHK.Text);
+                        EnableMethod(true);
+                        ShowData();
+                    }
+                    else
+                    {
+                        EnabledData(false);
+                        EnableMethod(true);
+                    }
+                }
+            }
         }
 
         private void btThoat_Click(object sender, EventArgs e)
@@ -164,10 +182,14 @@ namespace QuanLyHocSinh
             EnabledData(false);
             EnableMethod(true);
         }
-        //Chưa làm
+       
         private void btXoa_Click(object sender, EventArgs e)
         {
-            
+            type = "Xoa";
+            EnabledData(false);
+            EnableMethod(false);
+            btOk.Visible = true;
+            btCancel.Visible = true;
         }
     }
 }
