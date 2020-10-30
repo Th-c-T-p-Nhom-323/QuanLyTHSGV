@@ -61,10 +61,12 @@ namespace QuanLyHocSinh
             dtgvHanhKiem.DataSource = dal_hk.GetData();
             EnabledData(check);
         }
-        //Chưa làm 
+        
         private void btThem_Click(object sender, EventArgs e)
         {
-            
+            type = "Them";
+            EnabledData(true);
+            EnableMethod(false);
         }
 
         private void dtgvHanhKiem_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -85,7 +87,28 @@ namespace QuanLyHocSinh
         //Chưa làm
         private void btOk_Click(object sender, EventArgs e)
         {
-            
+            if (type == "Them")
+            {
+                if (txtMaHK.Text != "" && txtTen.Text != "")
+                {
+                    HanhKiem hk = new HanhKiem(txtMaHK.Text.Trim().ToString(), txtTen.Text.Trim().ToString());
+                    if (dal_hk.Them(hk) == true)
+                    {
+                        FormatData();
+                        ShowData();
+                        EnableMethod(true);
+                        MessageBox.Show("Thêm thành công");
+                    }
+                    else
+                    {
+                        Exception ex = dal_hk.GetEx();
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+                else
+                    MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
+
+            }
         }
 
         private void btThoat_Click(object sender, EventArgs e)
