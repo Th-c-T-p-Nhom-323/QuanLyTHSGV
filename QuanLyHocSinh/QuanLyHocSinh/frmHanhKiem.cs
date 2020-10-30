@@ -109,6 +109,27 @@ namespace QuanLyHocSinh
                     MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
 
             }
+            else if (type == "Sua")
+            {
+                if (txtTen.Text != "")
+                {
+                    HanhKiem hk = new HanhKiem(txtMaHK.Text.Trim().ToString(), txtTen.Text.Trim().ToString());
+                    if (dal_hk.Sua(hk) == true)
+                    {
+                        FormatData();
+                        ShowData();
+                        MessageBox.Show("Sửa thành công");
+                        EnableMethod(true);
+                    }
+                    else
+                    {
+                        Exception ex = dal_hk.GetEx();
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+                else
+                    MessageBox.Show("Bạn cần nhập đủ thông tin phòng ban");
+            }
         }
 
         private void btThoat_Click(object sender, EventArgs e)
@@ -117,10 +138,13 @@ namespace QuanLyHocSinh
             frmMain fmain = new frmMain();
             fmain.Show();
         }
-        //Chưa làm 
+        
         private void btSua_Click(object sender, EventArgs e)
         {
-            
+            type = "Sua";
+            EnabledData(true);
+            EnableMethod(false);
+            txtMaHK.Enabled = false;
         }
         //Chưa làm
         private void btTiemKiem_Click(object sender, EventArgs e)
