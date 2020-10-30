@@ -164,10 +164,26 @@ namespace QuanLyHocSinh
             EnableMethod(false);
             txtMaHK.Enabled = false;
         }
-        //Chưa làm
+        
         private void btTiemKiem_Click(object sender, EventArgs e)
         {
-            
+            if (txtTimKiem.Text != "")
+            {
+                btHienThi.Enabled = true;
+                if (dal_hk.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
+                {
+                    FormatData();
+                    dtgvHanhKiem.DataSource = dal_hk.GetDataTimKiem(txtTimKiem.Text.Trim());
+                    MessageBox.Show("Tìm thành công");
+                }
+                else
+                {
+                    Exception ex = dal_hk.GetEx();
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            else
+                MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
         }
 
         private void btHienThi_Click(object sender, EventArgs e)
