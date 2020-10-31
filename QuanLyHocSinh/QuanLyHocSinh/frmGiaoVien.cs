@@ -204,6 +204,7 @@ namespace QuanLyHocSinh
             type = "Sua";
             EnabledData(true);
             EnableMethod(false);
+            txtMaGV.Enabled = false;
         }
 
         private void btCancel_Click(object sender, EventArgs e)

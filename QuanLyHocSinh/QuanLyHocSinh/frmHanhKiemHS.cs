@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace QuanLyHocSinh
 {
-    public partial class frmHanhKiem : Form
+    public partial class frmHanhKiemHS : Form
     {
-        public frmHanhKiem()
+        public frmHanhKiemHS()
         {
             InitializeComponent();
             ShowData();
@@ -24,14 +24,19 @@ namespace QuanLyHocSinh
             }
             else
                 PhanQuyen(false);
+            LoadComHK();
+            LoadComHS();
+            txtMaHK.Text = cbTenHK.SelectedValue.ToString();
+            txtMaHS.Text = cbTenHS.SelectedValue.ToString();
+            maHK = txtMaHK.Text;
+            maHS = txtMaHS.Text;
         }
-        DALHanhKiem dal_hk = new DALHanhKiem();
+        DALHanhKIemHS dal_hkhs = new DALHanhKIemHS();
         bool check = false;
 
         private void FormatData()
         {
-            txtMaHK.Text = "";
-            txtTen.Text = "";
+            txtNamHoc.Text = "";
         }
         void PhanQuyen(bool b)
         {
@@ -41,14 +46,13 @@ namespace QuanLyHocSinh
         }
         private void EnabledData(bool b)
         {
-            txtMaHK.Enabled = b;
-            txtTen.Enabled = b;
+            txtNamHoc.Enabled = b;
             btOk.Visible = b;
             btCancel.Visible = b;
         }
         private void EnableMethod(bool b)
         {
-            if(frmLogin.quyen == 1)
+            if (frmLogin.quyen == 1)
             {
                 btThem.Enabled = b;
                 btSua.Enabled = b;
@@ -58,28 +62,48 @@ namespace QuanLyHocSinh
         string type;
         private void ShowData()
         {
-            dtgvHanhKiem.DataSource = dal_hk.GetData();
+            dtgvHanhKiemHS.DataSource = dal_hkhs.GetData();
             EnabledData(check);
         }
+        void LoadComHK()
+        {
+            cbTenHK.DataSource = dal_hkhs.GetDataComHK();
+            cbTenHK.DisplayMember = "Ten";
+            cbTenHK.ValueMember = "mahk";
+
+        }
+        void LoadComHS()
+        {
+            cbTenHS.DataSource = dal_hkhs.GetDataComHS();
+            cbTenHS.DisplayMember = "Ten";
+            cbTenHS.ValueMember = "mahs";
+        }
+
         private void btThem_Click(object sender, EventArgs e)
         {
             type = "Them";
             EnabledData(true);
             EnableMethod(false);
         }
-
-        private void dtgvHanhKiem_CellClick(object sender, DataGridViewCellEventArgs e)
+        string maHK, maHS;
+        private void dtgvHanhKiemHS_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             try
             {
                 DataGridViewRow row = new DataGridViewRow();
-                row = dtgvHanhKiem.Rows[e.RowIndex];
+                row = dtgvHanhKiemHS.Rows[e.RowIndex];
+                cbTenHK.Text = row.Cells[1].Value.ToString().Trim();
                 txtMaHK.Text = row.Cells[0].Value.ToString().Trim();
-                txtTen.Text = row.Cells[1].Value.ToString().Trim();
+                maHK = txtMaHK.Text;
+                cbTenHS.Text = row.Cells[3].Value.ToString().Trim();
+                txtMaHS.Text = row.Cells[2].Value.ToString().Trim();
+                maHS = txtMaHS.Text;
+                txtNamHoc.Text = row.Cells[4].Value.ToString().Trim();
+                cbHocKy.Text = row.Cells[5].Value.ToString().Trim();
             }
             catch (Exception ex)
             {
-                ex = dal_hk.GetEx();
+                ex = dal_hkhs.GetEx();
                 MessageBox.Show(ex.Message);
             }
         }
@@ -88,10 +112,10 @@ namespace QuanLyHocSinh
         {
             if (type == "Them")
             {
-                if (txtMaHK.Text != "" && txtTen.Text != "")
+                if (txtNamHoc.Text != "" && cbHocKy.Text != "")
                 {
-                    HanhKiem hk = new HanhKiem(txtMaHK.Text.Trim().ToString(), txtTen.Text.Trim().ToString());
-                    if (dal_hk.Them(hk) == true)
+                    HanhKiemHS hkhs = new HanhKiemHS(cbTenHK.SelectedValue.ToString().Trim(), cbTenHS.SelectedValue.ToString().Trim(), txtNamHoc.Text.ToString().Trim(), int.Parse(cbHocKy.SelectedItem.ToString()));
+                    if (dal_hkhs.Them(hkhs) == true)
                     {
                         FormatData();
                         ShowData();
@@ -100,7 +124,7 @@ namespace QuanLyHocSinh
                     }
                     else
                     {
-                        Exception ex = dal_hk.GetEx();
+                        Exception ex = dal_hkhs.GetEx();
                         MessageBox.Show(ex.Message);
                     }
                 }
@@ -110,10 +134,10 @@ namespace QuanLyHocSinh
             }
             else if (type == "Sua")
             {
-                if (txtTen.Text != "")
+                if (txtNamHoc.Text != "" && cbHocKy.Text != "")
                 {
-                    HanhKiem hk = new HanhKiem(txtMaHK.Text.Trim().ToString(), txtTen.Text.Trim().ToString());
-                    if (dal_hk.Sua(hk) == true)
+                    HanhKiemHS hkhs = new HanhKiemHS(cbTenHK.SelectedValue.ToString().Trim().ToString(), cbTenHS.SelectedValue.ToString().Trim().ToString(), txtNamHoc.Text.Trim(), int.Parse(cbHocKy.SelectedItem.ToString().Trim()));
+                    if (dal_hkhs.Sua(hkhs, maHK, maHS) == true)
                     {
                         FormatData();
                         ShowData();
@@ -122,7 +146,7 @@ namespace QuanLyHocSinh
                     }
                     else
                     {
-                        Exception ex = dal_hk.GetEx();
+                        Exception ex = dal_hkhs.GetEx();
                         MessageBox.Show(ex.Message);
                     }
                 }
@@ -131,12 +155,12 @@ namespace QuanLyHocSinh
             }
             else if (type == "Xoa")
             {
-                if (txtMaHK.Text != "" && txtTen.Text != "")
+                if (txtMaHK.Text != "" && txtMaHS.Text != "")
                 {
                     DialogResult dr = MessageBox.Show("Bạn có muốn xóa khồng?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
                     if (dr == DialogResult.OK)
                     {
-                        dal_hk.Xoa(txtMaHK.Text);
+                        dal_hkhs.Xoa(txtMaHK.Text, txtMaHS.Text);
                         EnableMethod(true);
                         ShowData();
                     }
@@ -149,47 +173,18 @@ namespace QuanLyHocSinh
             }
         }
 
-        private void btThoat_Click(object sender, EventArgs e)
-        {
-            this.Close();
-            frmMain fmain = new frmMain();
-            fmain.Show();
-        }
-
         private void btSua_Click(object sender, EventArgs e)
         {
             type = "Sua";
             EnabledData(true);
             EnableMethod(false);
-            txtMaHK.Enabled = false;
         }
 
-        private void btTiemKiem_Click(object sender, EventArgs e)
+        private void btThoat_Click(object sender, EventArgs e)
         {
-            if (txtTimKiem.Text != "")
-            {
-                btHienThi.Enabled = true;
-                if (dal_hk.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
-                {
-                    FormatData();
-                    dtgvHanhKiem.DataSource = dal_hk.GetDataTimKiem(txtTimKiem.Text.Trim());
-                    MessageBox.Show("Tìm thành công");
-                }
-                else
-                {
-                    Exception ex = dal_hk.GetEx();
-                    MessageBox.Show(ex.Message);
-                }
-            }
-            else
-                MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
-        }
-
-        private void btHienThi_Click(object sender, EventArgs e)
-        {
-            btHienThi.Enabled = false;
-            txtTimKiem.Text = "";
-            ShowData();
+            this.Close();
+            frmMain fmain = new frmMain();
+            fmain.Show();
         }
 
         private void btCancel_Click(object sender, EventArgs e)
@@ -205,6 +200,43 @@ namespace QuanLyHocSinh
             EnableMethod(false);
             btOk.Visible = true;
             btCancel.Visible = true;
+        }
+
+        private void cbTenHK_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            txtMaHK.Text = cbTenHK.SelectedValue.ToString();
+        }
+
+        private void btHienThi_Click(object sender, EventArgs e)
+        {
+            btHienThi.Enabled = false;
+            txtTimKiem.Text = "";
+            ShowData();
+        }
+
+        private void btTiemKiem_Click(object sender, EventArgs e)
+        {
+            if (txtTimKiem.Text != "")
+            {
+                btHienThi.Enabled = true;
+                if (dal_hkhs.GetDataTimKiem(txtTimKiem.Text.Trim()) != null)
+                {
+                    dtgvHanhKiemHS.DataSource = dal_hkhs.GetDataTimKiem(txtTimKiem.Text.Trim());
+                    MessageBox.Show("Tìm thành công");
+                }
+                else
+                {
+                    Exception ex = dal_hkhs.GetEx();
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            else
+                MessageBox.Show("Bạn cần nhập thông tin để tìm kiếm !");
+        }
+
+        private void cbTenHS_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            txtMaHS.Text = cbTenHS.SelectedValue.ToString();
         }
     }
 }
